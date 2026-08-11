@@ -27,6 +27,22 @@ Input format:
 
 To save a report, pass `--output report.json`. Existing files are never overwritten.
 
+## Evidence JSON Schema
+
+Input files follow the version 1 schema defined in
+`schema/evidence-v1.schema.json`.
+
+The schema defines:
+
+- `sample_id`: optional string identifier.
+- `transcript`: required non-empty learner sample.
+- `expected_keywords`: optional list of strings.
+
+Unknown fields are not allowed.
+
+See `examples/schema-valid.json` and
+`examples/schema-invalid.json` for synthetic examples.
+
 Example output:
 
 ```json

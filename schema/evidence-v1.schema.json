@@ -1,0 +1,26 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+"$id": "https://github.com/zqx0121-hue/hienglishlab-diagnosis/schema/evidence-v1.schema.json",
+  "title": "HiEnglishLab Evidence",
+  "description": "Version 1 schema for English-learning evidence input.",
+  "type": "object",
+  "properties": {
+    "sample_id": {
+      "type": "string"
+    },
+    "transcript": {
+      "type": "string",
+      "minLength": 1
+    },
+    "expected_keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "transcript"
+  ],
+  "additionalProperties": false
+}
