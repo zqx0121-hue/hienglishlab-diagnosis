@@ -23,6 +23,21 @@ Input format:
 
 To save a report, pass `--output report.json`. Existing files are never overwritten.
 
+Example output:
+
+```json
+{
+  "metrics": {
+    "word_count": 20,
+    "unique_word_count": 15,
+    "lexical_diversity": 0.75,
+    "sentence_count": 3,
+    "average_sentence_words": 6.67,
+    "keyword_coverage": 1.0
+  }
+}
+```
+
 ## Design principles
 
 - Local by default: no analytics, network requests, or model calls.
@@ -34,6 +49,8 @@ To save a report, pass `--output report.json`. Existing files are never overwrit
 ## Project status
 
 This is an early public release. The current scope is intentionally small while the schema, safety rules, and contribution process are validated. See [ROADMAP.md](ROADMAP.md) for planned work.
+
+See [CHANGELOG.md](CHANGELOG.md) for release history.
 
 ## Contributing and security
 
