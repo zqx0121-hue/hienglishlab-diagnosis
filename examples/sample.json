@@ -1,0 +1,5 @@
+{
+  "sample_id": "anonymous-demo",
+  "transcript": "The ocean gives animals a home. Plastic can hurt those animals. We can protect the ocean by using less plastic.",
+  "expected_keywords": ["ocean", "animals", "plastic", "protect"]
+}
