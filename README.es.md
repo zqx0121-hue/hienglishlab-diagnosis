@@ -6,6 +6,8 @@ Una herramienta CLI en Python, centrada en la privacidad y la explicabilidad, qu
 
 La versión actual mide la longitud de la muestra, la diversidad léxica, la longitud media de las oraciones y la cobertura de palabras clave. Produce JSON estructurado e indica siempre sus limitaciones. No asigna niveles normalizados, no realiza afirmaciones clínicas, no sube datos del alumnado y no llama a servicios externos.
 
+> **Límite open core:** este repositorio es la base pública de procesamiento de evidencias, no el sistema completo de diagnóstico validado o puntuación comercial. No produce resultados KET, PET, IELTS, CEFR ni equivalentes. Consulte [Open Core Scope](docs/OPEN_CORE_SCOPE.md).
+
 ## Inicio rápido
 
 ```bash
@@ -44,4 +46,3 @@ Lea [CONTRIBUTING.md](CONTRIBUTING.md) antes de enviar un PR. Informe vulnerabil
 ## Licencia
 
 MIT. Consulte [LICENSE](LICENSE).
-

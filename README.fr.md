@@ -6,6 +6,8 @@ Une CLI Python axée sur la confidentialité et l’explicabilité, qui transfor
 
 La version actuelle mesure la longueur de l’échantillon, la diversité lexicale, la longueur moyenne des phrases et la couverture des mots-clés. Elle produit un JSON structuré et indique toujours ses limites. Elle n’attribue pas de niveau standardisé, ne formule pas d’avis clinique, ne téléverse aucune donnée d’apprenant et n’appelle aucun service externe.
 
+> **Limite open core :** ce dépôt constitue la base publique de traitement des preuves, et non le système complet de diagnostic validé ou de notation commerciale. Il ne produit aucun score KET, PET, IELTS, CEFR ou équivalent. Consultez [Open Core Scope](docs/OPEN_CORE_SCOPE.md).
+
 ## Démarrage rapide
 
 ```bash

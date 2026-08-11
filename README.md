@@ -6,6 +6,8 @@ A privacy-first, explainable Python CLI for turning English-learning evidence in
 
 The project currently measures sample length, vocabulary variety, sentence length, and task-keyword coverage. It produces structured JSON and always reports limitations. It does not assign a standardized proficiency level, make clinical claims, upload learner data, or call external services.
 
+> **Open-core boundary:** this repository is the public evidence-processing foundation, not the complete validated diagnosis or commercial scoring system. It does not provide KET, PET, IELTS, CEFR, or equivalent scores. See [Open Core Scope](docs/OPEN_CORE_SCOPE.md).
+
 ## Quick start
 
 ```bash
@@ -53,6 +55,10 @@ Example output:
 This is an early public release. The current scope is intentionally small while the schema, safety rules, and contribution process are validated. See [ROADMAP.md](ROADMAP.md) for planned work.
 
 See [CHANGELOG.md](CHANGELOG.md) for release history.
+
+## Exam alignment
+
+The current metrics are descriptive signals only. They do not cover the complete constructs required for exam assessment, such as task achievement, communicative effectiveness, coherence, grammatical accuracy, fluency, pronunciation, listening, or reading comprehension. Future public mappings must document evidence, validation, limitations, and trademark status without reproducing protected exam content.
 
 ## Contributing and security
 

@@ -6,6 +6,8 @@
 
 当前版本支持样本长度、词汇多样性、平均句长和任务关键词覆盖率，并输出结构化 JSON 与明确的结果限制。它不会评定标准化语言等级、作出临床判断、上传学习者数据或调用外部服务。
 
+> **Open Core 边界：**本仓库只提供公开的学习证据处理基础层，不等同于完整、经过验证的诊断或商业评分系统，也不会给出 KET、PET、IELTS、CEFR 或同类分数。详见[开源核心范围](docs/OPEN_CORE_SCOPE.zh-CN.md)。
+
 ## 快速开始
 
 ```bash
@@ -37,6 +39,10 @@ hienglish-diagnose examples/sample.json
 
 项目目前处于早期公开阶段。我们会先验证数据格式、安全规则和贡献流程，再扩大功能范围。计划见 [ROADMAP.md](ROADMAP.md)，版本记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+## 考试适用范围
+
+当前指标只能作为描述性证据，尚未覆盖任务完成度、交际效果、篇章连贯性、语法准确度、口语流利度、发音、听力或阅读理解等完整考试构念。未来公开的考试映射必须说明证据、验证方式、局限和商标关系，并避免复制受保护的考试内容。
+
 ## 贡献与安全
 
 提交 PR 前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。安全问题请按 [SECURITY.md](SECURITY.md) 私下报告。参与项目即表示同意遵守 [行为准则](CODE_OF_CONDUCT.md)。
@@ -44,4 +50,3 @@ hienglish-diagnose examples/sample.json
 ## 许可证
 
 MIT，详见 [LICENSE](LICENSE)。
-

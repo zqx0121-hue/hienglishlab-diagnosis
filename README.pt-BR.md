@@ -6,6 +6,8 @@ Uma CLI Python com foco em privacidade e explicabilidade para transformar amostr
 
 A versão atual mede o tamanho da amostra, a diversidade lexical, o comprimento médio das frases e a cobertura de palavras-chave. Ela gera JSON estruturado e sempre informa suas limitações. Não atribui níveis padronizados, não faz afirmações clínicas, não envia dados de alunos e não acessa serviços externos.
 
+> **Limite open core:** este repositório é a base pública de processamento de evidências, não o sistema completo de diagnóstico validado ou pontuação comercial. Ele não produz resultados KET, PET, IELTS, CEFR ou equivalentes. Consulte [Open Core Scope](docs/OPEN_CORE_SCOPE.md).
+
 ## Início rápido
 
 ```bash
@@ -44,4 +46,3 @@ Leia [CONTRIBUTING.md](CONTRIBUTING.md) antes de enviar um PR. Relate vulnerabil
 ## Licença
 
 MIT. Consulte [LICENSE](LICENSE).
-
