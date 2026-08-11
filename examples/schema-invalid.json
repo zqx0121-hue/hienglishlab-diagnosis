@@ -1,0 +1,6 @@
+{
+  "sample_id": "anonymous-demo",
+  "transcript": "This is a synthetic example.",
+  "expected_keywords": ["english"],
+  "unexpected_field": "this should not be allowed"
+}
