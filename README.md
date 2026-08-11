@@ -39,7 +39,10 @@ This is an early public release. The current scope is intentionally small while 
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. Report vulnerabilities privately as described in [SECURITY.md](SECURITY.md). By participating, you agree to the [Code of Conduct](CODE_OF_CONDUCT.md).
 
+## Community
+
+The project values technical discussion and responsible open-source sharing in communities including [LINUX DO](https://linux.do/). Community participation does not imply endorsement of the project.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
-
