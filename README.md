@@ -1,5 +1,7 @@
 # HiEnglishLab Diagnosis Framework
 
+English | [简体中文](README.zh-CN.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Français](README.fr.md)
+
 A privacy-first, explainable Python CLI for turning English-learning evidence into reviewable metrics. It is designed for teachers, tutors, curriculum developers, and education-tool maintainers who need a transparent baseline before adding model-assisted analysis.
 
 The project currently measures sample length, vocabulary variety, sentence length, and task-keyword coverage. It produces structured JSON and always reports limitations. It does not assign a standardized proficiency level, make clinical claims, upload learner data, or call external services.
